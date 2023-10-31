@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary-subtle fixed-top">
+        <div class="container-fluid">
+          <a class="ms navbar-brand border border-6 border-dark bg-success rounded-4 text-white  px-2 py-2" href="#">Travel Hub</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"> </a>
+              </li>
+              <li class="nav-item">
+                <a class="active nav-link" href="#">Flights</a>
+              </li>
+              <li class="nav-item">
+                <a class="active nav-link" href="#">Hotels</a>
+              </li>
+              <li class="nav-item">
+                <a class="active nav-link" href="#">Trains</a>
+              </li>
+              <li class="nav-item">
+                <a class="active nav-link" href="#">Bus</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class=" border border-2 border-white rounded-3 nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Packages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Solo package</a></li>
+                  <li><a class="dropdown-item" href="#">Family package</a></li>
+                  <li><a class="dropdown-item" href="#">honeymoon package</a></li>
+                  <li><a class="dropdown-item" href="#">group package</a></li>
+
+
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="active nav-link disabled" aria-disabled="true">Holidays</a>
+              </li>
+              <li class="nav-item">
+                <a class="active nav-link disabled" aria-disabled="true">Helpline</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="type your Destination" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">find</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item" data-bs-interval="3000">
+            <img src="./img/1400x600-6.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Make your trip memmorable</h5>
+              <p>Explore the world and Experiace the culture</p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="./img/w" class="d-block w-100 c-img" alt="50%"">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Its time for a solo trip</h5>
+              <p>Feel the beauty of nature</p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="./img/Feature-image-happy-family.webp" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Keep up with your family</h5>
+              <p>family is the only place were you can be yourself </p>
+            </div>
+          </div>
+            <div class="carousel-item c-item">
+              <img src="./img/friends.jpg" class="d-block w-100 c-img" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Travel with your friends</h5>
+                <p>Be in your comfortable place </p>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h3>Populer</h3>
+      <div class="container">
+        <div class="row mt-5 ms-4">
+          <div class="col-md-4 mb-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./img/alappy.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Alleppy</h5>
+          <p class="card-text">4 days allepy tour package</p><p>$ 120.11 per adult</p>
+          <a href="#" class="btn btn-primary">book tour</a>
+        </div>
+      </div>
+          </div>
+      
+          <div class="col-md-4 mb-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./img/kannyakumari" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">kannyakumari</h5>
+          <p class="card-text">3 days kannyakumari tour package</p><p>$ 120.11 per adult</p>
+          <a href="#" class="btn btn-primary">book tour</a>
+        </div>
+      </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./img/munnar-sunrise.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Munnar</h5>
+                <p class="card-text">4 days munnar tour package</p><p>$ 120.10 per adult</p>
+                <a href="#" class="btn btn-primary">book tour</a>
+              </div>
+            </div>
+                </div>
+        </div></div>
+
+        <div class="card">
+          <div class="card-header">
+            Travel Hub
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p></p>
+              <footer class="blockquote-footer">copyright 2023 travel hub | All rights reserved<cite title="Source Title"></cite></footer>
+            </blockquote>
+          </div>
+        </div>
+</body>
+</html>
+
+
+
